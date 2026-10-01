@@ -1,0 +1,9 @@
+# WarriorMulti-world config
+# Worlds are managed with /wmw commands; this section is edited automatically.
+# type: NORMAL | NETHER | END | FLAT | VOID
+# gamemode: SURVIVAL | CREATIVE | ADVENTURE | SPECTATOR
+worlds:
+  warrior_arena:
+    type: FLAT
+    gamemode: ADVENTURE
+    pvp: true

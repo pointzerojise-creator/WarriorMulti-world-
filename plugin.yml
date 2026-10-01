@@ -1,0 +1,23 @@
+name: WarriorMulti-world
+version: ${project.version}
+main: com.warrior.multiworld.WarriorMultiWorld
+api-version: "1.20"
+author: Warrior
+description: Create and manage multiple worlds, each with its own gamemode.
+
+commands:
+  wmw:
+    description: WarriorMulti-world main command
+    usage: /wmw <create|delete|tp|list|setmode|setpvp|reload>
+    aliases: [warriorworld, mw]
+
+permissions:
+  warriormultiworld.admin:
+    description: Create, delete, configure and reload worlds
+    default: op
+  warriormultiworld.tp:
+    description: Teleport between worlds
+    default: true
+  warriormultiworld.bypass:
+    description: Keep your own gamemode when entering a world
+    default: op
